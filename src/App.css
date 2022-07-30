@@ -74,3 +74,16 @@ input{
 input:hover{
     border-color:#b92a2a
 }
+
+
+
+.home-container{
+    margin: 1.5rem;
+}
+.home_header{
+    margin-bottom: 1rem;
+}
+
+.home_para{
+    letter-spacing: 0.5px;
+}
