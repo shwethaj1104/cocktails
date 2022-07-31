@@ -62,6 +62,7 @@ button{
     align-items: center;
     height: 5rem;
     gap: 2rem;
+    padding: 1rem;
 }
 .cocktail_search__label{
     font-size: 1.3rem;
