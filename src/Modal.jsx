@@ -5,7 +5,6 @@ import { useGlobalContext } from './context'
 const Modal = () => {
     const {isopenModal,closeModal,openModal,modaldata} = useGlobalContext()
     const selectedModal = modaldata[0]
-    console.log("in modal",selectedModal)
   return (
     <div>
         {isopenModal && 
