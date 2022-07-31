@@ -8,11 +8,19 @@ const AppContext = React.createContext()
 
 export const AppProvider = ({children})=>{
     const [data,setData] = useState(drinks)
+    const [modaldata,setmodalData] = useState({})
     const [isopenModal,setIsOpenModal] = useState(false)
+    // const [isopenModal,setIsOpenModal] = useState(false)
 
     const openModal = (text)=>{
+        console.log("in context....",text)
         setIsOpenModal(true)
+        setmodalData(text)
     }
+    const closeModal = ()=>{
+        setIsOpenModal(false)
+    }
+
     // const fetchData = async()=>{
     //     const response = await fetch(url);
     //     const newData = await response.json()
@@ -22,7 +30,7 @@ export const AppProvider = ({children})=>{
     //     fetchData()
     // },[])
 
-    return <AppContext.Provider value={{data,isopenModal,openModal,setData}} >{children}</AppContext.Provider> 
+    return <AppContext.Provider value={{data,isopenModal,openModal,setData,closeModal,modaldata,setmodalData}} >{children}</AppContext.Provider> 
 }
 
 export const useGlobalContext=()=>{
