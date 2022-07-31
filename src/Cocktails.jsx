@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { useGlobalContext } from './context'
 import Navbar from './Navbar'
 import drinks from "./data";
@@ -11,21 +11,15 @@ const Cocktails = () => {
 
     const { data, setData ,openModal,closeModal,isopenModal} = useGlobalContext()
     const { searchedText, setSearchedText } = useState([])
-    // const [open, setOpen] = useState(false);
-    // const {data,setData} = useState()
 
     const showDetails = (e) => {
-        // setOpen(true);
-        console.log(e.target.textContent)
-        // setSearchedText(e.target.textContent)
+        // console.log(e.target.textContent)
         const filteredData = data.filter((item) => {
             return item.strDrink.includes(e.target.textContent)
         })
-        console.log("filteredData", filteredData)
         openModal(filteredData)
     }
     const handleClose = () => {
-        // setOpen(false);
         closeModal()
       };
     const handleChange = event => {
