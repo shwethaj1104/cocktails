@@ -161,6 +161,9 @@ input:hover{
         padding: 0.3rem;
         color: #5ba8b8;
     }
+    .id{
+        font-size: 0.9rem;
+    }
 }
 @media screen and (max-width:500px) {
     .cocktails_section{
@@ -199,6 +202,9 @@ input{
     padding: 0.3rem;
     color: #5ba8b8;
 }
+.id{
+    font-size: 0.7rem;
+}
 }
 
 @media screen and (max-width:360px) {
@@ -214,5 +220,8 @@ input{
         font-size: 1.2rem;
         padding: 0.3rem;
         color: #5ba8b8;
+    }
+    .id{
+        font-size: 0.6rem;
     }
 }
