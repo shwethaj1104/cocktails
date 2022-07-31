@@ -101,9 +101,10 @@ input:hover{
     gap: 1rem;
 }
 .modal_img{
-    height: 100%;
+    height: 50%;
     width: 100% !important;
     border-radius: 1rem;
+    object-fit: cover;
 }
 .modal-right{
     display: grid;
