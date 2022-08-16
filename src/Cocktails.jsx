@@ -9,7 +9,7 @@ import Modal from './Modal';
 
 const Cocktails = () => {
 
-    const { data, setData ,openModal,closeModal,isopenModal} = useGlobalContext()
+    const { data, setData, openModal, closeModal, isopenModal } = useGlobalContext()
     const { searchedText, setSearchedText } = useState([])
 
     const showDetails = (e) => {
@@ -21,7 +21,7 @@ const Cocktails = () => {
     }
     const handleClose = () => {
         closeModal()
-      };
+    };
     const handleChange = event => {
         event.preventDefault()
         if (event.target.value) {
@@ -51,7 +51,7 @@ const Cocktails = () => {
                             <label>Name : {strDrink}</label>
                             <label>Category : {strCategory}</label>
                             <button onClick={showDetails}>{strDrink}</button>
-                            <Modal 
+                            <Modal
                                 open={isopenModal}
                                 onClose={handleClose}
                             />
