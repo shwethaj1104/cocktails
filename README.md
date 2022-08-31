@@ -1,5 +1,5 @@
 # Search Cocktails 
-Application built on
+Application built on React.js
 
 User can search Cocktails from the search bar provided :
 
