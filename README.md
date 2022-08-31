@@ -1,4 +1,4 @@
-# Cocktails-App
+# Search Cocktails 
 
 User can search Cocktails from the search bar provided:
 
