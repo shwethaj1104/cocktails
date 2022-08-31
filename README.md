@@ -3,7 +3,7 @@ Application built on React.js
 
 Checkout Application at : https://cocktails-sigma.vercel.app/cocktail
 
-Technology used: modal
+Technology used: @mui/material
 
 User can search Cocktails from the search bar provided :
 
