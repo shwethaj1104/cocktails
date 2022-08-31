@@ -1,4 +1,5 @@
 # Search Cocktails 
+Application
 
 User can search Cocktails from the search bar provided :
 
