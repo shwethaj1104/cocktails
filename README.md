@@ -1,7 +1,7 @@
 # Search Cocktails 
 Application built on React.js
 
-Checkout Application
+Checkout Application at https://cocktails-sigma.vercel.app/cocktail
 
 User can search Cocktails from the search bar provided :
 
