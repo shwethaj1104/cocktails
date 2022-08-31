@@ -1,7 +1,7 @@
 # Search Cocktails 
 Application built on React.js
 
-Checkout
+Checkout Application
 
 User can search Cocktails from the search bar provided :
 
